@@ -7,9 +7,9 @@ const crypto = require("crypto");
 const https = require("https");
 
 // AWS Credentials (stored securely in Flowise)
-const AWS_REGION = "us-west-2"; // Change if needed or use variable $vars.AWS_REGION
-const ACCESS_KEY = $vars.AWS_ACCESS_KEY;
-const SECRET_KEY = $vars.AWS_SECRET_KEY;
+const AWS_REGION = $vars.AWS_REGION; 
+const ACCESS_KEY = $vars.AWS_ACCESS_KEY_ID;
+const SECRET_KEY = $vars.AWS_SECRET_ACCESS_KEY;
 const EMAIL_FROM = $vars.AWS_EMAIL_SENDER; // Must be verified in AWS SES
 
 // Construct the email request payload
