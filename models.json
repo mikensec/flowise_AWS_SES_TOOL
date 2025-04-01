@@ -1,0 +1,501 @@
+{
+    "chat": [
+        {
+            "name": "awsChatBedrock",
+            "models": [
+                {
+                    "label": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+                    "name": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+                    "description": "(20250219-v1:0) specific version of Claude Sonnet 3.7 - hybrid reasoning model"
+                },
+                {
+                    "label": "anthropic.claude-3-5-haiku-20241022-v1:0",
+                    "name": "anthropic.claude-3-5-haiku-20241022-v1:0",
+                    "description": "(20241022-v1:0) specific version of Claude Haiku 3.5 - fastest model"
+                },
+                {
+                    "label": "anthropic.claude-3.5-sonnet-20241022-v2:0",
+                    "name": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+                    "description": "(20241022-v2:0) specific version of Claude Sonnet 3.5 - most intelligent model"
+                },
+                {
+                    "label": "anthropic.claude-3.5-sonnet-20240620-v1:0",
+                    "name": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+                    "description": "(20240620-v1:0) specific version of Claude Sonnet 3.5 - most intelligent model"
+                },
+                {
+                    "label": "anthropic.claude-3-opus",
+                    "name": "anthropic.claude-3-opus-20240229-v1:0",
+                    "description": "Powerful model for highly complex tasks, reasoning and analysis"
+                },
+                {
+                    "label": "anthropic.claude-3-sonnet",
+                    "name": "anthropic.claude-3-sonnet-20240229-v1:0",
+                    "description": "Balance of intelligence and speed"
+                },
+                {
+                    "label": "anthropic.claude-3-haiku",
+                    "name": "anthropic.claude-3-haiku-20240307-v1:0",
+                    "description": "Fastest and most compact model for near-instant responsiveness"
+                },
+                {
+                    "label": "anthropic.claude-instant-v1",
+                    "name": "anthropic.claude-instant-v1",
+                    "description": "Text generation, conversation"
+                },
+                {
+                    "label": "anthropic.claude-v2:1",
+                    "name": "anthropic.claude-v2:1",
+                    "description": "Text generation, conversation, complex reasoning and analysis"
+                },
+                {
+                    "label": "anthropic.claude-v2",
+                    "name": "anthropic.claude-v2",
+                    "description": "Text generation, conversation, complex reasoning and analysis"
+                },
+                {
+                    "label": "meta.llama2-13b-chat-v1",
+                    "name": "meta.llama2-13b-chat-v1",
+                    "description": "Text generation, conversation"
+                },
+                {
+                    "label": "meta.llama2-70b-chat-v1",
+                    "name": "meta.llama2-70b-chat-v1",
+                    "description": "Text generation, conversation"
+                },
+                {
+                    "label": "meta.llama3-8b-instruct-v1:0",
+                    "name": "meta.llama3-8b-instruct-v1:0",
+                    "description": "Text summarization, text classification, sentiment analysis"
+                },
+                {
+                    "label": "meta.llama3-70b-instruct-v1:0",
+                    "name": "meta.llama3-70b-instruct-v1:0",
+                    "description": "Language modeling, dialog systems, code generation, text summarization, text classification, sentiment analysis"
+                },
+                {
+                    "label": "mistral.mistral-7b-instruct-v0:2",
+                    "name": "mistral.mistral-7b-instruct-v0:2",
+                    "description": "Classification, text generation, code generation"
+                },
+                {
+                    "label": "mistral.mixtral-8x7b-instruct-v0:1",
+                    "name": "mistral.mixtral-8x7b-instruct-v0:1",
+                    "description": "Complex reasoning and analysis, text generation, code generation"
+                },
+                {
+                    "label": "mistral.mistral-large-2402-v1:0",
+                    "name": "mistral.mistral-large-2402-v1:0",
+                    "description": "Complex reasoning and analysis, text generation, code generation, RAG, agents"
+                }
+            ],
+            "regions": [
+                {
+                    "label": "us-east-1",
+                    "name": "us-east-1"
+                }
+            ]
+        }
+        
+    ],
+    "llm": [
+        {
+            "name": "awsBedrock",
+            "models": [
+                {
+                    "label": "amazon.titan-tg1-large",
+                    "name": "amazon.titan-tg1-large"
+                },
+                {
+                    "label": "amazon.titan-e1t-medium",
+                    "name": "amazon.titan-e1t-medium"
+                },
+                {
+                    "label": "cohere.command-text-v14",
+                    "name": "cohere.command-text-v14"
+                },
+                {
+                    "label": "cohere.command-light-text-v14",
+                    "name": "cohere.command-light-text-v14"
+                },
+                {
+                    "label": "ai21.j2-grande-instruct",
+                    "name": "ai21.j2-grande-instruct"
+                },
+                {
+                    "label": "ai21.j2-jumbo-instruct",
+                    "name": "ai21.j2-jumbo-instruct"
+                },
+                {
+                    "label": "ai21.j2-mid",
+                    "name": "ai21.j2-mid"
+                },
+                {
+                    "label": "ai21.j2-ultra",
+                    "name": "ai21.j2-ultra"
+                }
+            ],
+            "regions": [
+                {
+                    "label": "us-east-1",
+                    "name": "us-east-1"
+                }
+            ]
+        }
+        
+    ],
+    "embedding": [
+        {
+            "name": "openAIEmbeddings",
+            "models": [
+                {
+                    "label": "text-embedding-3-large",
+                    "name": "text-embedding-3-large"
+                },
+                {
+                    "label": "text-embedding-3-small",
+                    "name": "text-embedding-3-small"
+                },
+                {
+                    "label": "text-embedding-ada-002",
+                    "name": "text-embedding-ada-002"
+                }
+            ]
+        },
+        {
+            "name": "openAIEmbedding_LlamaIndex",
+            "models": [
+                {
+                    "label": "text-embedding-3-large",
+                    "name": "text-embedding-3-large"
+                },
+                {
+                    "label": "text-embedding-3-small",
+                    "name": "text-embedding-3-small"
+                },
+                {
+                    "label": "text-embedding-ada-002",
+                    "name": "text-embedding-ada-002"
+                }
+            ]
+        },
+        {
+            "name": "mistralAIEmbeddings",
+            "models": [
+                {
+                    "label": "mistral-embed",
+                    "name": "mistral-embed"
+                }
+            ]
+        },
+        {
+            "name": "voyageAIEmbeddings",
+            "models": [
+                {
+                    "label": "voyage-3",
+                    "name": "voyage-3",
+                    "description": "High-performance embedding model with excellent retrieval quality, 32K token context, and 1024 dimension size."
+                },
+                {
+                    "label": "voyage-3-lite",
+                    "name": "voyage-3-lite",
+                    "description": "Lightweight embedding model optimized for low latency and cost, 32K token context, and 512 dimension size."
+                },
+                {
+                    "label": "voyage-2",
+                    "name": "voyage-2",
+                    "description": "General-purpose embedding model optimized for a balance between cost, latency, and retrieval quality."
+                },
+                {
+                    "label": "voyage-code-2",
+                    "name": "voyage-code-2",
+                    "description": "Optimized for code retrieval."
+                },
+                {
+                    "label": "voyage-finance-2",
+                    "name": "voyage-finance-2",
+                    "description": "Optimized for finance retrieval and RAG."
+                },
+                {
+                    "label": "voyage-large-2",
+                    "name": "voyage-large-2",
+                    "description": "General-purpose embedding model that is optimized for retrieval quality."
+                },
+                {
+                    "label": "voyage-large-2-instruct",
+                    "name": "voyage-large-2-instruct",
+                    "description": "Instruction-tuned general-purpose embedding model optimized for clustering, classification, and retrieval."
+                },
+                {
+                    "label": "voyage-law-2",
+                    "name": "voyage-law-2",
+                    "description": "Optimized for legal and long-context retrieval and RAG. Also improved performance across all domains."
+                },
+                {
+                    "label": "voyage-lite-02-instruct",
+                    "name": "voyage-lite-02-instruct",
+                    "description": "Instruction-tuned for classification, clustering, and sentence textual similarity tasks"
+                },
+                {
+                    "label": "voyage-multilingual-2",
+                    "name": "voyage-multilingual-2",
+                    "description": "Optimized for multilingual retrieval and RAG."
+                }
+            ]
+        },
+        {
+            "name": "googlevertexaiEmbeddings",
+            "models": [
+                {
+                    "label": "multimodalembedding",
+                    "name": "multimodalembedding"
+                },
+                {
+                    "label": "text-embedding-004",
+                    "name": "text-embedding-004"
+                },
+                {
+                    "label": "text-multilingual-embedding-002",
+                    "name": "text-multilingual-embedding-002"
+                },
+                {
+                    "label": "textembedding-gecko@001",
+                    "name": "textembedding-gecko@001"
+                },
+                {
+                    "label": "textembedding-gecko@latest",
+                    "name": "textembedding-gecko@latest"
+                },
+                {
+                    "label": "textembedding-gecko-multilingual@latest",
+                    "name": "textembedding-gecko-multilingual@latest"
+                }
+            ]
+        },
+        {
+            "name": "googleGenerativeAiEmbeddings",
+            "models": [
+                {
+                    "label": "embedding-001",
+                    "name": "embedding-001"
+                },
+                {
+                    "label": "text-embedding-004",
+                    "name": "text-embedding-004"
+                }
+            ]
+        },
+        {
+            "name": "cohereEmbeddings",
+            "models": [
+                {
+                    "label": "embed-english-v3.0",
+                    "name": "embed-english-v3.0",
+                    "description": "Embedding Dimensions: 1024"
+                },
+                {
+                    "label": "embed-english-light-v3.0",
+                    "name": "embed-english-light-v3.0",
+                    "description": "Embedding Dimensions: 384"
+                },
+                {
+                    "label": "embed-multilingual-v3.0",
+                    "name": "embed-multilingual-v3.0",
+                    "description": "Embedding Dimensions: 1024"
+                },
+                {
+                    "label": "embed-multilingual-light-v3.0",
+                    "name": "embed-multilingual-light-v3.0",
+                    "description": "Embedding Dimensions: 384"
+                },
+                {
+                    "label": "embed-english-v2.0",
+                    "name": "embed-english-v2.0",
+                    "description": "Embedding Dimensions: 4096"
+                },
+                {
+                    "label": "embed-english-light-v2.0",
+                    "name": "embed-english-light-v2.0",
+                    "description": "Embedding Dimensions: 1024"
+                },
+                {
+                    "label": "embed-multilingual-v2.0",
+                    "name": "embed-multilingual-v2.0",
+                    "description": "Embedding Dimensions: 768"
+                }
+            ]
+        },
+        {
+            "name": "AWSBedrockEmbeddings",
+            "models": [
+                {
+                    "label": "amazon.titan-embed-text-v1",
+                    "name": "amazon.titan-embed-text-v1",
+                    "description": "Embedding Dimensions: 1536"
+                },
+                {
+                    "label": "amazon.titan-embed-text-v2",
+                    "name": "amazon.titan-embed-text-v2:0",
+                    "description": "Embedding Dimensions: 1024"
+                },
+                {
+                    "label": "amazon.titan-embed-g1-text-02",
+                    "name": "amazon.titan-embed-g1-text-02",
+                    "description": "Embedding Dimensions: 1536"
+                },
+                {
+                    "label": "cohere.embed-english-v3",
+                    "name": "cohere.embed-english-v3",
+                    "description": "Embedding Dimensions: 1024"
+                },
+                {
+                    "label": "cohere.embed-multilingual-v3",
+                    "name": "cohere.embed-multilingual-v3",
+                    "description": "Embedding Dimensions: 1024"
+                }
+            ],
+            "regions": [
+                {
+                    "label": "af-south-1",
+                    "name": "af-south-1"
+                },
+                {
+                    "label": "ap-east-1",
+                    "name": "ap-east-1"
+                },
+                {
+                    "label": "ap-northeast-1",
+                    "name": "ap-northeast-1"
+                },
+                {
+                    "label": "ap-northeast-2",
+                    "name": "ap-northeast-2"
+                },
+                {
+                    "label": "ap-northeast-3",
+                    "name": "ap-northeast-3"
+                },
+                {
+                    "label": "ap-south-1",
+                    "name": "ap-south-1"
+                },
+                {
+                    "label": "ap-south-2",
+                    "name": "ap-south-2"
+                },
+                {
+                    "label": "ap-southeast-1",
+                    "name": "ap-southeast-1"
+                },
+                {
+                    "label": "ap-southeast-2",
+                    "name": "ap-southeast-2"
+                },
+                {
+                    "label": "ap-southeast-3",
+                    "name": "ap-southeast-3"
+                },
+                {
+                    "label": "ap-southeast-4",
+                    "name": "ap-southeast-4"
+                },
+                {
+                    "label": "ap-southeast-5",
+                    "name": "ap-southeast-5"
+                },
+                {
+                    "label": "ap-southeast-6",
+                    "name": "ap-southeast-6"
+                },
+                {
+                    "label": "ca-central-1",
+                    "name": "ca-central-1"
+                },
+                {
+                    "label": "ca-west-1",
+                    "name": "ca-west-1"
+                },
+                {
+                    "label": "cn-north-1",
+                    "name": "cn-north-1"
+                },
+                {
+                    "label": "cn-northwest-1",
+                    "name": "cn-northwest-1"
+                },
+                {
+                    "label": "eu-central-1",
+                    "name": "eu-central-1"
+                },
+                {
+                    "label": "eu-central-2",
+                    "name": "eu-central-2"
+                },
+                {
+                    "label": "eu-north-1",
+                    "name": "eu-north-1"
+                },
+                {
+                    "label": "eu-south-1",
+                    "name": "eu-south-1"
+                },
+                {
+                    "label": "eu-south-2",
+                    "name": "eu-south-2"
+                },
+                {
+                    "label": "eu-west-1",
+                    "name": "eu-west-1"
+                },
+                {
+                    "label": "eu-west-2",
+                    "name": "eu-west-2"
+                },
+                {
+                    "label": "eu-west-3",
+                    "name": "eu-west-3"
+                },
+                {
+                    "label": "il-central-1",
+                    "name": "il-central-1"
+                },
+                {
+                    "label": "me-central-1",
+                    "name": "me-central-1"
+                },
+                {
+                    "label": "me-south-1",
+                    "name": "me-south-1"
+                },
+                {
+                    "label": "sa-east-1",
+                    "name": "sa-east-1"
+                },
+                {
+                    "label": "us-east-1",
+                    "name": "us-east-1"
+                },
+                {
+                    "label": "us-east-2",
+                    "name": "us-east-2"
+                },
+                {
+                    "label": "us-gov-east-1",
+                    "name": "us-gov-east-1"
+                },
+                {
+                    "label": "us-gov-west-1",
+                    "name": "us-gov-west-1"
+                },
+                {
+                    "label": "us-west-1",
+                    "name": "us-west-1"
+                },
+                {
+                    "label": "us-west-2",
+                    "name": "us-west-2"
+                }
+            ]
+        }
+    ]
+}
