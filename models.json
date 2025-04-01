@@ -94,6 +94,10 @@
                     "label": "us-east-1",
                     "name": "us-east-1"
                 }
+                {
+                    "label": "us-west-2",
+                    "name": "us-west-2"
+                }
             ]
         }
         
